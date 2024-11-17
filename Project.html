@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(177, 173, 125,0.6);
+        }
+        @media screen and (min-width:780px){
+            
+        .head{
+            font-size: xx-large;
+            padding-top: 50px;
+            position: absolute;
+           left: 650px;
+           text-decoration: underline wavy;
+           animation: Poudel 2s ease-in ;
+         }
+         @keyframes Poudel{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        .context{
+            position: absolute;
+            top: 120px;
+            left: 500px;
+            right: 450px;
+            animation: Poudel 2s ease-in ;
+         }
+         @keyframes Poudel{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        .th{
+            opacity: 0.5;
+            position: absolute;
+            top: 250px;
+            left: 150px;
+            border-radius: 50px;
+        }
+        .tr{
+            opacity: 0.5;
+            position: absolute;
+            top: 250px;
+            left: 600px;
+            border-radius: 50px;
+        }
+        .to{
+            opacity: 0.5;
+            position: absolute;
+            top: 250px;
+            left: 1050px;
+            border-radius: 50px;
+        }
+        .think{
+            font-size:xx-large;
+            font-weight: bolder;
+            color: black;
+            position: absolute;
+            top: 380px;
+            left: 190px;
+            text-decoration: underline;
+        }
+        .tree{
+            font-size: xx-large;
+            font-weight: bolder;
+            position: absolute;
+            top: 380px;
+            left: 620px;
+            text-decoration: underline;
+        }
+        .todo{
+            font-size: xx-large;
+            font-weight: bolder;
+            position: absolute;
+            top: 380px;
+            left: 1150px;
+            text-decoration: underline;
+        }
+        .ha{
+            font-size: small;
+            position: absolute;
+            top: 610px;
+            left: 100px;
+            right: 1000px;
+        }
+        .hb{
+            position: absolute;
+            top: 610px;
+            left: 600px;
+            right: 600px;
+        }
+        .hc{
+            position: absolute;
+            top: 610px;
+            left: 1050px;
+            right: 140px;
+        }
+        .vth{
+            background-color: black;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 690px;
+            left: 230px;
+            cursor: pointer;
+        }    
+        .vtr{
+            background-color: black;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 690px;
+            left: 700px;
+            cursor: pointer;
+        }
+        .vto{
+            background-color: black;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 690px;
+            left: 1150px;
+            cursor: pointer;
+        }
+        .root{
+            font-size: larger;
+            font-weight: bolder;
+            position: absolute;
+            top: 570px;
+            left: 230px
+        }
+        .steam{
+            font-size: larger;
+            font-weight: bolder;
+            position: absolute;
+            top: 570px;
+            left: 670px
+        }
+        .leave{
+            font-size: larger;
+            font-weight: bolder;
+            position: absolute;
+            top: 570px;
+            left: 1150px
+        }
+    }
+    @media screen and (max-width:780px){
+        .head{
+            font-size: xx-large;
+            padding-top: 50px;
+            position: absolute;
+           left: 100px;
+           text-decoration: underline wavy;
+           animation: Poudel 2s ease-in ;
+         }
+         @keyframes Poudel{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        .context{
+            text-align: center;
+            position: absolute;
+            top: 120px;
+            left: 20px;
+            right: 20px;
+            animation: Poudel 2s ease-in ;
+         }
+         @keyframes Poudel{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        .th{
+            width: 200px;
+            height: 200px;
+            opacity: 0.5;
+            position: absolute;
+            top: 250px;
+            left: 100px;
+            border-radius: 50px;
+        }
+        .tr{
+            width: 200px;
+            height: 200px;
+            opacity: 0.5;
+            position: absolute;
+            top: 700px;
+            left: 100px;
+            border-radius: 50px;
+        }
+        .to{
+            width: 200px;
+            height: 200px;
+            opacity: 0.5;
+            position: absolute;
+            top: 1120px;
+            left: 100px;
+            border-radius: 50px;
+        }
+        .think{
+            font-size: x-large;
+            font-weight: bolder;
+            color: black;
+            position: absolute;
+            top: 330px;
+            left: 110px;
+            text-decoration: underline;
+        }
+        .tree{
+            font-size: x-large;
+            font-weight: bolder;
+            position: absolute;
+            top: 780px;
+            left: 105px;
+            text-decoration: underline;
+        }
+        .todo{
+            font-size: xx-large;
+            font-weight: bolder;
+            position: absolute;
+            top: 1200px;
+            left: 135px;
+            text-decoration: underline;
+        }
+        .ha{
+            text-align: center;
+            font-size: small;
+            position: absolute;
+            top: 520px;
+            padding-left: 10px;
+            padding-right: 15px;
+
+        }
+        .hb{
+            text-align: center;
+            position: absolute;
+            top: 970px;
+            padding-left: 10px;
+            padding-right: 15px;
+        }
+        .hc{
+            text-align: center;
+            position: absolute;
+            top: 1393px;
+            padding-right: 10px;
+        }
+        .vth{
+            background-color: black;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 620px;
+            left: 150px;
+            cursor: pointer;
+        }    
+        .vtr{
+            background-color: black;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 1030px;
+            left: 150px;
+            cursor: pointer;
+        }
+        .vto{
+            background-color: black;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 1450px;
+            left: 150px;
+            bottom: 300px;
+            cursor: pointer;
+        }
+        .root{
+            font-size: larger;
+            font-weight: bolder;
+            position: absolute;
+            top: 480px;
+            left: 128px
+        }
+        .steam{
+            font-size: larger;
+            font-weight: bolder;
+            position: absolute;
+            top: 930px;
+            left: 120px
+        }
+        .leave{
+            font-size: larger;
+            font-weight: bolder;
+            position: absolute;
+            top: 1350px;
+            left: 160px;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="head">Resent Projects</div>
+    <div class="context">Below you can my some example of my resent project.Check out my complete project and portfololio.Have project which you like to discus? Lets ,make something together </div>
+    <div class=" think ">Think and Asked</div>
+    <div class="tree ">Transvarse of Tree</div>
+    <div class="todo ">Todo List</div>
+    <div class="  root">Think and Asked</div>
+    <div class="steam">Transvarse of Tree</div>
+    <div class=" leave">Todo List</div>
+    <div class="ha">The QuestionAnswerContract is designed to create a decentralized Q&A platform where students can ask questions and teachers can provide answers in exchange for a fee. By leveraging blockchain technology, this contract ensures transparency, immutability, and direct financial transactions without intermediaries.</div>
+    <div class="hb">I have made an program on tree inorder,preorder,postorder. If you diid not want to increase the tree put -1 in the data.</div>
+    <div class="hc">I made an webiste for adding todo list using javascript,Htmland CSS.</div>
+    <img class="th" src="thinkimg.jpg" width="300" height="300" alt="think">
+    <img class="tr" src="treeimg.jpg" width="300" height="300" alt="tree">
+    <img class="to" src="todoimg.jpg" width="300" height="300" alt="todo">
+    <a href="https://github.com/beapoudel/Think-And-Asked/blob/main/hello.sol" ><button class="vth">View Project</button></a>
+    <a href="https://github.com/beapoudel/tree-with-inorder-preorder-postorder/blob/main/tree.c"><button class="vtr">View Project</button></a>
+    <a href="https://github.com/beapoudel/todoList/blob/main/todolist.html"><button class="vto">View Project</button></a>
+</body>
+</html>
