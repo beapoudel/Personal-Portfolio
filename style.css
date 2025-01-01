@@ -1,0 +1,198 @@
+
+@media screen and (min-width: 780px)
+{
+    
+body{
+    background-color: rgb(114, 110, 110,0.6)
+}
+
+.image{
+    position:absolute;
+    bottom: 350px;
+    right: 600px;
+    border-radius: 1000px;
+}
+h2{
+ float: left;
+ text-align: center;
+ padding: 14px 150px;
+ color: white;
+ background-color: black;
+ border-radius: 15px;
+ font-style: italic;
+}
+.head{
+    position: absolute;
+    bottom: 300px;
+    right: 620px;
+    font-size: 25px;
+    font-style: bold;
+    border-right: 3px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 2s steps(20),
+    cursor .4s step-end infinite;
+}
+@keyframes typing{
+    from{width:0%}
+    to{width: 16%}
+}
+@keyframes cursor{
+    from,to{border-color:transparent}
+    50%{border-color: transparent;}
+    from{left: 650px;}
+    to{border-color: transparent;}
+}
+
+.content{
+    padding-top: 500px;
+}
+.edu{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+
+    
+}
+.education{
+    padding: 30px 0px;
+   text-align: left;
+}
+.download{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+}
+.resume{
+    position: absolute;
+    top: 160px;
+    right: 240px;
+    font-size: x-large;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+}
+@media screen and (max-width: 780px) {
+    body{
+        height: 100%;
+        background-color: rgb(114, 110, 110,0.5)
+    }
+ h2{
+    float: left;
+ text-align: center;
+ padding: 14px 150px;
+ color: white;
+ background-color: black;
+ border-radius: 15px;
+ font-style: italic;
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-bottom: 9px;
+    padding-top: 5px;
+    font-size: 15px;
+ }
+ .head{
+    font-size: larger;
+    position: absolute;
+    top: 310px;
+    left: 150px; 
+    font-size: 20px;
+    font-style: bold;
+    border-right: 3px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    type 2s steps(20),
+    curs .4s step-end infinite;
+}
+@keyframes type{
+    from{width:0%}
+    to{width: 100%}
+}
+@keyframes curs{
+    from,to{border-color:transparent}
+    50%{border-color: transparent;}
+    from{left: 100px;}
+    to{border-color: transparent;}
+
+ }
+ .c{
+    position: absolute;
+    left: 10px;
+ }
+ .e{
+    position: absolute;
+    left: 120px;
+ }
+ .s{
+    position: absolute;
+    left: 255px;
+ }
+ .p{
+    position: absolute;
+    left: 340px;
+    padding-right: 10px;
+ }
+ 
+ .image{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 110px;
+    top: 90px;
+    border-radius: 1000px;
+}
+ .content{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 350px;
+ }
+ .education{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 770px;
+    overflow-y: scroll;
+ }
+
+ .edu{
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 650px;
+    left: 160px;
+
+ }
+ .download{
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+}
+.resume{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-size: large;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+}
+ 
+ 
